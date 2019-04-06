@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8441.043,146.59332,6853.126};
-		dir[]={-0.66133845,-0.74974328,0.02790213};
-		up[]={-0.74933869,0.66144139,0.031611908};
-		aside[]={0.04215477,4.4667104e-007,0.99916452};
+		pos[]={8566.1973,265.57385,6719.5479};
+		dir[]={-0.12102392,-0.71117467,0.69270778};
+		up[]={-0.12244938,0.70273113,0.70084894};
+		aside[]={0.98513079,2.4741166e-007,0.17211501};
 	};
 };
 binarizationWanted=0;
@@ -14726,7 +14726,7 @@ class Mission
 			name="marker_8";
 			text="36";
 			type="mil_arrow";
-			angle=0.21899982;
+			angle=0.2189998;
 			id=307;
 			atlOffset=-5.1610031;
 		};
@@ -15411,6 +15411,7 @@ class Mission
 			};
 			id=347;
 			type="rhsusf_M1085A1P2_B_D_Medical_fmtv_usarmy";
+			atlOffset=-0.078918457;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -16157,6 +16158,7 @@ class Mission
 			};
 			id=360;
 			type="rhsusf_m998_d_2dr_fulltop";
+			atlOffset=0.030632019;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -17060,7 +17062,7 @@ class Mission
 				position[]={8389.7793,111.54,6776.2578};
 				angles[]={0,3.9204283,0};
 			};
-			init="call{_null = [this] execVM ""scripts\vehicle\init\Curat~or.sqf"";}";
+			init="call{_null = [this] execVM ""scripts\vehicle\init\Curator.sqf"";}";
 			id=613;
 			type="ModuleCurator_F";
 			class CustomAttributes
