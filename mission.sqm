@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=890;
+		nextID=891;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8652.6875,392.23126,6919.4976};
-		dir[]={-0.79746932,-0.60195971,-0.041269608};
-		up[]={-0.60116357,0.79851955,-0.031110436};
-		aside[]={-0.051681783,-1.0522217e-007,0.99867213};
+		pos[]={9171.6074,100.67926,6511.3823};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -403,7 +403,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=283;
+		items=284;
 		class Item0
 		{
 			dataType="Object";
@@ -5245,8 +5245,8 @@ class Mission
 			{
 				class Attribute0
 				{
-					property="A10C_ReplacePilotID";
-					expression="_this setVariable [""A10C_ReplacePilot"", _value]; [_this, _value] execVM 'FIR_A10C\sqs\init\replace_pilot.sqf';";
+					property="A10C_SelectAmmoID";
+					expression="_this setVariable [""A10_SelectAmmo"",_value];";
 					class Value
 					{
 						class data
@@ -5264,8 +5264,8 @@ class Mission
 				};
 				class Attribute1
 				{
-					property="A10C_SelectAmmoID";
-					expression="_this setVariable [""A10_SelectAmmo"",_value];";
+					property="A10C_ReplacePilotID";
+					expression="_this setVariable [""A10C_ReplacePilot"", _value]; [_this, _value] execVM 'FIR_A10C\sqs\init\replace_pilot.sqf';";
 					class Value
 					{
 						class data
@@ -16143,7 +16143,7 @@ class Mission
 			name="marker_8";
 			text="36";
 			type="mil_arrow";
-			angle=0.21899995;
+			angle=0.21899994;
 			id=307;
 			atlOffset=-5.1610031;
 		};
@@ -16278,7 +16278,7 @@ class Mission
 			position[]={8361.2227,111.54,7185.3096};
 			name="vehicle_box_spawn";
 			type="Empty";
-			angle=310.20416;
+			angle=310.20413;
 			id=333;
 		};
 		class Item68
@@ -16710,7 +16710,7 @@ class Mission
 			name="respawn_west";
 			text="Main Base";
 			type="Empty";
-			angle=310.20395;
+			angle=310.20392;
 			id=342;
 			atlOffset=-3.4001083;
 		};
@@ -18300,7 +18300,7 @@ class Mission
 			text="Heavy Lift Pad";
 			type="mil_pickup";
 			colorName="ColorWEST";
-			angle=310.20416;
+			angle=310.20413;
 			id=396;
 		};
 		class Item102
@@ -18804,7 +18804,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={8379.0215,111.54,6964.7417};
-			angle=1.5747056;
+			angle=1.5747055;
 			class Attributes
 			{
 				text="helipads no vehicles";
@@ -21376,7 +21376,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={8323.1328,111.54,7013.5337};
-			angle=1.5747056;
+			angle=1.5747055;
 			class Attributes
 			{
 				text="helipads no vehicles";
@@ -24869,7 +24869,7 @@ class Mission
 			type="rectangle";
 			a=50;
 			b=100;
-			angle=0.7669999;
+			angle=0.76699984;
 			id=866;
 		};
 		class Item261
@@ -24906,7 +24906,7 @@ class Mission
 			type="rectangle";
 			a=200;
 			b=200;
-			angle=122.07098;
+			angle=122.07096;
 			id=869;
 			atlOffset=0.00049209595;
 		};
@@ -24919,7 +24919,7 @@ class Mission
 			type="rectangle";
 			a=200;
 			b=200;
-			angle=122.07098;
+			angle=122.07096;
 			id=870;
 			atlOffset=-4.5776367e-005;
 		};
@@ -24932,7 +24932,7 @@ class Mission
 			type="rectangle";
 			a=200;
 			b=200;
-			angle=122.07098;
+			angle=122.07096;
 			id=871;
 			atlOffset=0.00042724609;
 		};
@@ -24945,7 +24945,7 @@ class Mission
 			type="rectangle";
 			a=200;
 			b=200;
-			angle=122.07098;
+			angle=122.07096;
 			id=872;
 			atlOffset=-2.3600006;
 		};
@@ -24958,7 +24958,7 @@ class Mission
 			type="rectangle";
 			a=200;
 			b=200;
-			angle=171.20596;
+			angle=171.20595;
 			id=873;
 			atlOffset=0.00015258789;
 		};
@@ -24971,7 +24971,7 @@ class Mission
 			type="rectangle";
 			a=200;
 			b=200;
-			angle=172.70796;
+			angle=172.70795;
 			id=874;
 			atlOffset=-0.00021362305;
 		};
@@ -24984,7 +24984,7 @@ class Mission
 			type="rectangle";
 			a=200;
 			b=200;
-			angle=122.07098;
+			angle=122.07096;
 			id=875;
 			atlOffset=0.00019836426;
 		};
@@ -25009,7 +25009,7 @@ class Mission
 			type="rectangle";
 			a=100;
 			b=100;
-			angle=122.07098;
+			angle=122.07096;
 			id=877;
 			atlOffset=0.00012207031;
 		};
@@ -25022,7 +25022,7 @@ class Mission
 			type="rectangle";
 			a=200;
 			b=200;
-			angle=122.07098;
+			angle=122.07096;
 			id=878;
 			atlOffset=0.000831604;
 		};
@@ -25047,7 +25047,7 @@ class Mission
 			type="rectangle";
 			a=200;
 			b=200;
-			angle=122.07098;
+			angle=122.07096;
 			id=880;
 			atlOffset=0.00061035156;
 		};
@@ -25073,7 +25073,7 @@ class Mission
 			type="rectangle";
 			a=100;
 			b=100;
-			angle=178.31497;
+			angle=178.31496;
 			id=883;
 			atlOffset=-0.0002822876;
 		};
@@ -25098,7 +25098,7 @@ class Mission
 			type="rectangle";
 			a=100;
 			b=200;
-			angle=146.29897;
+			angle=146.29895;
 			id=885;
 		};
 		class Item279
@@ -25123,7 +25123,7 @@ class Mission
 			type="rectangle";
 			a=100;
 			b=200;
-			angle=46.815994;
+			angle=46.81599;
 			id=887;
 			atlOffset=-1.732254;
 		};
@@ -25155,6 +25155,19 @@ class Mission
 			drawBorder=1;
 			id=889;
 			atlOffset=-2.9386139;
+		};
+		class Item283
+		{
+			dataType="Trigger";
+			position[]={10041.766,128.61624,10065.61};
+			class Attributes
+			{
+				name="carrier";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=890;
+			type="EmptyDetector";
 		};
 	};
 };
