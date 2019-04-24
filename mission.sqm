@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8459.1133,141.399,6871.5073};
-		dir[]={-0.49701688,-0.61451209,-0.61267841};
-		up[]={-0.38714489,0.78889674,-0.47723812};
-		aside[]={-0.77661121,1.8495484e-007,0.63000053};
+		pos[]={8428.6445,125.60679,6806.2842};
+		dir[]={-0.42119974,-0.90691739,-0.011135576};
+		up[]={-0.90659893,0.42130846,-0.023968479};
+		aside[]={-0.026430257,-6.1180617e-007,0.99966687};
 	};
 };
 binarizationWanted=0;
@@ -1356,7 +1356,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{[this,""charlie"",true,true,true,true,false] call cScripts_fnc_doStarterCrate;}";
+				init="call{[this,""charlie"",true,true,true,true,true] call cScripts_fnc_doStarterCrate;}";
 				description="ARSENAL";
 			};
 			id=19;
@@ -1484,7 +1484,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{[this,""charlie"",true,true,true,true,false] call cScripts_fnc_doStarterCrate;}";
+				init="call{[this,""charlie"",true,true,true,true,true] call cScripts_fnc_doStarterCrate;}";
 				description="ARSENAL";
 			};
 			id=20;
@@ -1612,7 +1612,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{[this,""charlie"",true,true,true,true,false] call cScripts_fnc_doStarterCrate;}";
+				init="call{[this,""charlie"",true,true,true,true,true] call cScripts_fnc_doStarterCrate;}";
 				description="ARSENAL";
 			};
 			id=21;
@@ -1730,8 +1730,8 @@ class Mission
 			{
 				class Attribute0
 				{
-					property="A10C_ReplacePilotID";
-					expression="_this setVariable [""A10C_ReplacePilot"", _value]; [_this, _value] execVM 'FIR_A10C\sqs\init\replace_pilot.sqf';";
+					property="A10C_SelectAmmoID";
+					expression="_this setVariable [""A10_SelectAmmo"",_value];";
 					class Value
 					{
 						class data
@@ -1749,8 +1749,8 @@ class Mission
 				};
 				class Attribute1
 				{
-					property="A10C_SelectAmmoID";
-					expression="_this setVariable [""A10_SelectAmmo"",_value];";
+					property="A10C_ReplacePilotID";
+					expression="_this setVariable [""A10C_ReplacePilot"", _value]; [_this, _value] execVM 'FIR_A10C\sqs\init\replace_pilot.sqf';";
 					class Value
 					{
 						class data
@@ -11056,7 +11056,7 @@ class Mission
 			name="marker_8";
 			text="36";
 			type="mil_arrow";
-			angle=0.21899973;
+			angle=0.21899971;
 			id=307;
 			atlOffset=-5.1610031;
 		};
@@ -11371,7 +11371,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8384.9639,113.11836,6850.0972};
-				angles[]={-0,3.1552567,0};
+				angles[]={0,3.1552567,0};
 			};
 			side="Empty";
 			flags=4;
@@ -11831,7 +11831,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8388.9492,113.56911,6848.9727};
-				angles[]={-0,3.155463,0};
+				angles[]={0,3.155463,0};
 			};
 			side="Empty";
 			flags=4;
@@ -11841,6 +11841,7 @@ class Mission
 			};
 			id=350;
 			type="rhsusf_m1045_d";
+			atlOffset=-7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12462,7 +12463,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8361.0762,112.73378,7002.1216};
-				angles[]={-0,1.173306,0};
+				angles[]={0,1.173306,0};
 			};
 			side="Empty";
 			flags=4;
@@ -13534,7 +13535,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8401.7627,114.16924,6879.563};
-				angles[]={-0,3.1418366,0};
+				angles[]={0,3.1418366,0};
 			};
 			side="Empty";
 			flags=4;
@@ -15481,7 +15482,7 @@ class Mission
 			type="rectangle";
 			a=100;
 			b=60;
-			angle=85.621994;
+			angle=85.621986;
 			id=876;
 		};
 		class Item145
@@ -20460,7 +20461,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8430.3184,111.54144,6793.8931};
-						angles[]={-0,6.1961989,0};
+						angles[]={0,6.1961989,0};
 					};
 					side="West";
 					flags=6;
@@ -20561,7 +20562,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8431.5498,111.54144,6793.6685};
-						angles[]={-0,6.1273289,0};
+						angles[]={0,6.1273289,0};
 					};
 					side="West";
 					flags=4;
@@ -20662,7 +20663,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8430.0791,111.54144,6792.3501};
-						angles[]={-0,0.037385866,0};
+						angles[]={0,0.037385866,0};
 					};
 					side="West";
 					flags=4;
@@ -20877,7 +20878,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8427.0713,111.54144,6793.9507};
-						angles[]={-0,6.1538577,0};
+						angles[]={0,6.1538577,0};
 					};
 					side="West";
 					flags=6;
@@ -20978,7 +20979,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8428.2354,111.54144,6793.7959};
-						angles[]={-0,6.1273289,0};
+						angles[]={0,6.1273289,0};
 					};
 					side="West";
 					flags=4;
@@ -21092,7 +21093,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8424.2217,111.54144,6793.7207};
-						angles[]={-0,6.1273289,0};
+						angles[]={0,6.1273289,0};
 					};
 					side="West";
 					flags=6;
@@ -21193,7 +21194,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8425.3428,111.54144,6793.5977};
-						angles[]={-0,6.127337,0};
+						angles[]={0,6.127337,0};
 					};
 					side="West";
 					flags=4;
@@ -21307,7 +21308,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8419.9609,111.54144,6793.6567};
-						angles[]={-0,6.0515637,0};
+						angles[]={0,6.0515637,0};
 					};
 					side="West";
 					flags=6;
@@ -21408,7 +21409,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8421.3301,111.54144,6793.8154};
-						angles[]={-0,6.1273289,0};
+						angles[]={0,6.1273289,0};
 					};
 					side="West";
 					flags=4;
@@ -21636,7 +21637,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8416.8184,111.54144,6793.9478};
-						angles[]={-0,6.190649,0};
+						angles[]={0,6.190649,0};
 					};
 					side="West";
 					flags=6;
@@ -22000,7 +22001,7 @@ class Mission
 			type="rectangle";
 			a=200;
 			b=200;
-			angle=172.70798;
+			angle=172.70796;
 			id=1179;
 			atlOffset=-0.00024414063;
 		};
@@ -22013,7 +22014,7 @@ class Mission
 			type="rectangle";
 			a=100;
 			b=100;
-			angle=172.70798;
+			angle=172.70796;
 			id=1180;
 		};
 	};
